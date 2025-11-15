@@ -32,7 +32,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: C:\Users\Katana\Downloads\New folder (2)\python-ci-docker-lab
+        images: vijay/python-ci-lab
         tags: |
           type=raw,value=latest,enable={{is_default_branch}}
           type=sha,prefix=sha-,format=short
